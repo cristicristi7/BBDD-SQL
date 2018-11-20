@@ -17,7 +17,7 @@ CREATE TABLE SERIES(
    ID                   INT PRIMARY KEY   NOT NULL,
    TITLE                CHAR(50)          NOT NULL,
    DESCRIPTION          CHAR(200)         NOT NULL,
-   YEAR                 YEAR              NOT NULL,
+   YEAR                 INT               NOT NULL,
    START                CHAR(3)           NOT NULL,
    NSEASONS             CHAR(3)           NOT NULL
 );
