@@ -1,7 +1,7 @@
-SQL
+#mySQL
 
 (We make tables of series, characters and relations).
-
+~~~mySQL
 CREATE TABLE CHARACTERS(
    ID             INT PRIMARY KEY ,
    NAME           CHAR(50) ,
@@ -62,4 +62,4 @@ INSERT INTO CHARACTERS VALUES (9, 'matt', 'murdoc', 'murdok', 'inmortal', 'pensi
 INSERT INTO CHARACTERS VALUES (10, 'karen', 'pages', 'carita paginas', 'cambiar de cara', 'politica', 22, 'M');
 INSERT INTO CHARACTERS VALUES (11, 'foggy', NULL, 'gustavo', 'croar', 'abogado', 53, 'H');
 INSERT INTO CHARACTERS VALUES (12, 'frank', 'castle', NULL, NULL, NULL, 12, 'H');
-
+~~~
